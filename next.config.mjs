@@ -15,8 +15,8 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: '/',
-        destination: '/api-doc',
+        source: "/",
+        destination: "/test",
         permanent: false,
       },
     ];

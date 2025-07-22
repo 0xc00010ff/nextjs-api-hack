@@ -11,24 +11,25 @@ A simple NextJS application designed for building and testing APIs. This environ
 ## Getting Started
 
 0. **Clone the repo**
+
    ```
    git clone git@github.com:0xc00010ff/nextjs-api-hack.git
    cd nextjs-api-hack
    ```
 
-2. **Install Dependencies**
+1. **Install Dependencies**
 
    ```bash
    npm install
    ```
 
-3. **Run Development Server**
+2. **Run Development Server**
 
    ```bash
    npm run dev
    ```
 
-4. **Open Swagger Dashboard**  
+3. **Open Swagger Dashboard**  
    Navigate to `http://localhost:3000` - you'll be automatically redirected to the Swagger documentation at `/test`
 
 ## Adding New API Routes
