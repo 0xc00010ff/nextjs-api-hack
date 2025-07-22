@@ -16,32 +16,12 @@ import { type NextRequest, NextResponse } from "next/server";
  *             schema:
  *               type: object
  *               properties:
- *                 kind:
+ *                 title:
  *                   type: string
- *                   example: "Listing"
- *                 data:
- *                   type: object
- *                   properties:
- *                     children:
- *                       type: array
- *                       items:
- *                         type: object
- *                         properties:
- *                           kind:
- *                             type: string
- *                           data:
- *                             type: object
- *                             properties:
- *                               title:
- *                                 type: string
- *                               author:
- *                                 type: string
- *                               score:
- *                                 type: number
- *                               url:
- *                                 type: string
- *                               created_utc:
- *                                 type: number
+ *                   example: "Check this out!"
+ *                 url:
+ *                   type: string
+ *                   example: "https://www.reddit.com/r/ycombinator/comments/1234567890"
  *       500:
  *         description: Error fetching data from Reddit
  *         content:
