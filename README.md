@@ -11,23 +11,25 @@ A simple NextJS application designed for building and testing APIs. This environ
 ## Getting Started
 
 0. **Clone the repo**
+   ```
    git clone git@github.com:0xc00010ff/nextjs-api-hack.git
    cd nextjs-api-hack
+   ```
 
-1. **Install Dependencies**
+2. **Install Dependencies**
 
    ```bash
    npm install
    ```
 
-2. **Run Development Server**
+3. **Run Development Server**
 
    ```bash
    npm run dev
    ```
 
-3. **Open Swagger Dashboard**
-   Navigate to `http://localhost:3000` - you'll be automatically redirected to the Swagger documentation at `/api-doc`
+4. **Open Swagger Dashboard**  
+   Navigate to `http://localhost:3000` - you'll be automatically redirected to the Swagger documentation at `/test`
 
 ## Adding New API Routes
 
@@ -70,7 +72,7 @@ A simple NextJS application designed for building and testing APIs. This environ
 │ │ ├── reddit-yc/ # Example Reddit API
 │ │ ├── health/ # Health check API
 │ │ └── example/ # Example API with GET/POST
-│ ├── api-doc/ # Swagger documentation pages
+│ ├── test/ # Swagger documentation pages
 │ └── layout.tsx # Root layout
 ├── lib/
 │ └── swagger.ts # Swagger configuration
